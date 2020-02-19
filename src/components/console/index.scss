@@ -1,0 +1,28 @@
+.Console {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  max-width: 100%;
+  border: 1px solid #efefef;
+  border-radius: 6px;
+
+  .output {
+    flex: 1 1 0;
+
+    .line {
+      padding: 0 6px;
+      line-height: 24px;
+    }
+  }
+
+  .input {
+    flex: 0 0;
+    border: 0;
+    padding: 0 12px;
+    line-height: 35px;
+    border-bottom: 1px solid #efefef;
+    background: transparent;
+    color: #fff;
+    outline: 0;
+  }
+}
